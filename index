@@ -24,5 +24,21 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores at non incidunt eveniet, eum dolorem esse excepturi aut et neque magni itaque eius, accusamus, officiis nisi suscipit architecto iure.</p>
         <h2>Tempo de curso</h2>
         <!-- h2 = titulo de nivel 2 -->
+        <p>O curso tem 3 anos.</p>
+        <h2>Disciplinas</h2>
+        <ul>
+            <!-- <ul> = lista não ordenada -->
+            <!-- <li> = item da lista -->
+            <li>Web Design</li>
+            <li>Programação de Computadores</li>
+            <li>Matemática Dsicreta</li>
+        </ul>
+        <h2>Professores</h2>
+        <ol>
+            <!-- <ol> = lista ordenada-->
+            <li>Danielle</li>
+            <li>Jorgiano</li>
+            <li>Lucena</li>
+        </ol>
     </body>
 </html>
