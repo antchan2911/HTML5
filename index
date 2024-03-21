@@ -1,0 +1,28 @@
+<!-- boas praticas de desenvolvimento = nome do arquivo todo minusculo/sem espaço/sem acento/respeitar identação -->
+<!-- se atentar à sintaxe -->
+<!-- se atentar à semantica-->
+
+<!DOCTYPE html>
+<!-- DOCTYPE se trata da versão do HTML(o HTML5 separa totalmente a marcação da formatação(CSS))  -->
+<html lang="pt-br">
+    <head>
+        <!-- head = cabeçalho da pagina -->
+        <title>TADS</title>
+        <!-- tittle = nome da pagina -->
+        <meta charset="utf-8">
+        <!-- as marcações que não possuem final significa que não podem receber comandos dentro de si -->
+        <!-- a tag meta do tipo charset corrige os acentos -->
+    </head>
+    <body>
+        <!-- corpo da pagina -->
+        <h1>TADS</h1>
+        <!-- h1 = titulo de nivel 1, o mais importante do site -->
+        <p>O curso de Tecnologia em desenvolvimento de sistemas</p>
+        <!-- p indica paragrafo, dando um espaçamento entre paragrafos-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quidem, quos esse maiores nobis aliquid quasi hic magnam repudiandae eaque nulla laudantium, possimus eum labore animi minima error aliquam dolores?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellat magni ipsam voluptatibus fugit, ullam error excepturi natus. Repellendus cumque nostrum accusamus cupiditate rerum libero corrupti doloremque id, ex quasi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores at non incidunt eveniet, eum dolorem esse excepturi aut et neque magni itaque eius, accusamus, officiis nisi suscipit architecto iure.</p>
+        <h2>Tempo de curso</h2>
+        <!-- h2 = titulo de nivel 2 -->
+    </body>
+</html>
