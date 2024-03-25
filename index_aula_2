@@ -1,0 +1,64 @@
+/* Seletor da instancia do HTML a ser estilizada */
+body{
+    /* https://color.adobe.com/pt/create/color-wheel site para formar codigo de cores */
+    background-color: #4363FA;
+    color: rgb(255, 255, 255);
+    /* 1em é aproximadamente 8px e é melhor em responsividade que o px*/
+    font-size: 1em;
+    /* se o computador não tiver arial, ele roda helvetica, se não tiver, roda sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    /* tipo de alinhamento(esquerda, direita, justificado, centralizado) */
+    text-align: center;
+    /* primeiro valor é a espessura da borda, segundo é estilo da borda(solid, dashed, dotted) e terceiro cor, todos separados por espaços */
+    border: 1px solid white;
+    /* arredondamento das bordas */
+    border-radius: 5em;
+}
+
+/* se selecionar a lista inteira os parametros serão aplicados pra a tag toda, se selecionar apenas o item os parametros ser]ao aplicaados por item */
+ul{
+    /* padding é o espaçamento interno e margin espaçamento externo(além da borda) */
+    padding: 0em;
+    margin-right: 50%;
+    background-color: #FA3A33;
+    /* modifica o estilo da listagem(o ponto) */
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(imagem.extensao);
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <html>
+    <head>
+        <title>NBA</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="principal.css">
+        <!-- O CSS pode ser feito dentro de qualquer parte do HTML, bem como pode ser feito em um arquivo proprio e vinculado -->
+    </head>
+    <body>
+        <h1>NBA</h1>
+        <h2>Liga nacional de basquete mais influente e competitiva do mundo, repleta da melhor estrutura e dos melhores jogadores do planeta.</h2>
+        <h2>Atual Campeão:</h2>
+        <ul>
+            <h3>
+                <li>Denver Nuggets</li>
+            </h3>
+        </ul>
+        <h2>Melhores Jogadores:</h2>
+        <ul>
+            <h3>
+                <!-- shift + alt + seta pra baixo duplica o item -->
+                <li>Nikola Jokic</li>
+                <li>Luka Doncic</li>
+                <li>Shai Gilgeous-Alexander</li>
+                <li>Giannis Antetokoumpo</li>
+                <li>Jayson Tatum</li>
+            </h3>
+        </ul>
+    </body>
+</html>
+
