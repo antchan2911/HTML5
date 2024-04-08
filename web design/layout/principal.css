@@ -1,0 +1,41 @@
+*{
+    font-family: Garamond, Georgia;
+}
+
+body {
+    background-color: #F9F1DC;
+}
+
+h1 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+#destaque {
+    border-top: 5px solid #F5BD26;
+    border-bottom: 5px solid #F5BD26;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    width: 65em;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-style: Italic;
+}
+
+p {
+    text-align: center;
+    width: 25em;
+    margin: 0 auto;
+}
