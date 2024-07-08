@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcoral;
+}
+
+header{
+    border: 1px solid black;
+    margin: 5em;
+    text-align: center;
+    padding: 3em;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 1em; /*primeiro valor espaçamento vertical segundo espaçamento horizontal */
+    background-color: lightcyan;
+    margin-top: 2em;
+    border-radius: 0.2em;
+}
+
+header a:hover { /* formatar o botão ao passar o cursor */
+    color: lightsalmon;
+    background-color: lightseagreen;
+}
+
+main ol{
+    border: 1px solid black;
+    margin: 2em;
+    padding: 3em;
+    list-style-type: none;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
