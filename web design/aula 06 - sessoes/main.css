@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#container {
+    padding: 1em;
+    background-color: lightgray;
+    max-width: 70em; /* fixa a largura maxima do container, o que influencia a responsividade no modo janela e no mobile */
+    margin: 2em auto; /* margin e o max-width trabalham juntos para centralizar a pagina, o primeiro valor é cima/baixo, o segundo é esquerda/direita */
+    /* alinhar texto = text-align, alinhar estrutura = margin */
+}
+
+header, main, footer {
+    margin: 2em;
+    padding: 2em;
+    background-color: blue;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+li {
+    display: inline;
+}
