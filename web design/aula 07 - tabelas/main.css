@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 2em auto; /* centralizar */
+    max-width: 60em; /* necessario pra centralizar, define a largura maxima do conteudo na pagina */
+    background-color: lightgray;
+    color: black;
+    border-collapse: collapse; /* as tables possuem um espaçamento padrao entre as celulas, esse comando retira esse espaçamento */
+}
+
+th, td {
+    padding: 1em;
+    border: 2px solid red;
+}
+
+td:hover /* estiliza quando passa o cursor do mouse */ { 
+    background-color: green;
+}
+
+tr {
+    border: 2px solid red;
+}
+
+table tr:nth-child(odd) /* alternancia de cor nas linhas da tabela, o valor em parenteses é a linha que vai ser estilizada, odd estiliza de forma alternada */ {
+    background-color: grey;
+}

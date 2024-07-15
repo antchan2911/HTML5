@@ -1,0 +1,7 @@
+table -> cria tabela
+caption -> titulo da tabela
+tr -> linha da tabela
+th -> titulo das colunas, coloca no primeiro tr
+td -> conteudo das colunas
+rowspan -> mescla celulas na horizontal
+colspan -> mescla celulas na vertical
