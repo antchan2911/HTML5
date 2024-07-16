@@ -36,7 +36,7 @@ body {
 }
 
 .ol1 {
-    text-align:center;
+    text-align: center;
 }
 
 .li1 {
@@ -53,7 +53,7 @@ body {
     padding: 5px;
 }
 
-h4 {
+.h41 {
     padding-bottom: 10px;
 }
 
@@ -79,4 +79,70 @@ h4 {
 .img_jogadores {
     border: 3px solid white;
     border-radius: 10%
+}
+
+.h3campeoes {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.li3 {
+    padding: 5px;
+    margin-bottom: 2em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h42 {
+    padding-bottom: 10px;
+}
+
+.figure_campeoes {
+    text-align: center;
+}
+
+.figure_campeoes1, .figure_campeoes2 {
+    padding-right: 2em;
+    padding-top: 2em;
+    display: inline-block;
+}
+
+.img_campeoes {
+    border: 5px solid white;
+    border-radius: 10%
+}
+
+.table_campeoes {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-width: 30em;
+    margin: 2em auto;
+    border-collapse: collapse;
+    border: 5px solid white;
+}
+
+.table_campeoes tr:nth-child(odd) {
+    background-color: rgb(13, 26, 107);
+}
+
+.table_campeoes tr:nth-child(1) {
+    background-color: rgb(37, 37, 173);
+}
+
+.table_campeoes tr:nth-child(2) {
+    background-color: green;
+}
+
+.table_campeoes tr:nth-child(3) {
+    background-color: purple;
+}
+.table_campeoes tr:nth-child(4) {
+    background-color: rgb(180, 199, 12);
+}
+
+caption {
+    padding-bottom: 0.7em;
 }
