@@ -1,30 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-.hd1 {
+.hd1, .hd2 {
     border-bottom: 5px solid white;
     margin-bottom: 2em;
     padding: 2em;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 41, 41);
-    color: white;
-}
-
-.hd2 {
-    text-align: center;
-    border-bottom: 5px solid white;
-    margin-bottom: 2em;
-    padding: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 41, 41);
-    color: white;
-}
-
-.h2index {
-    padding: 10px;
 }
 
 .h2jogadores {
@@ -35,22 +21,30 @@ body {
     background-color: rgb(37, 37, 173);
 }
 
+footer {
+    font-size: large;
+    background-color: rgb(255, 41, 41);
+    padding-top: 5em;
+    padding-left: 1em;
+    border-top: 5px solid white;
+}
+
+.ftr_index {
+    margin-top: 25em;
+}
+
 .ol1 {
     text-align: center;
 }
 
 .li1 {
-    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     list-style-type: none;
     background-color: red;
-    color: white;
     font-size: large;
     margin: 1em 0.5em;
 }
 .li2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     padding: 5px;
 }
 
@@ -64,7 +58,6 @@ body {
     border: 2px solid white;
     border-radius: 10%;
     background-color: red;
-    color: white;
 }
 
 .menu:hover {
@@ -92,16 +85,12 @@ body {
 
 .h3campeoes {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     padding-bottom: 2em;
 }
 
 .li3 {
     padding: 5px;
     margin-bottom: 2em;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h42 {
@@ -129,12 +118,11 @@ body {
 
 .img_campeoes {
     border: 5px solid white;
-    border-radius: 10%
+    border-radius: 10%;
 }
 
 .table_campeoes {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     max-width: 30em;
     margin: 2em auto;
@@ -166,15 +154,38 @@ caption {
     font-size: large;
 }
 
-.p_historia {
+.ph {
+    padding-bottom: 1em;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     text-align: justify;
     max-width: 50em;
     margin: 0 auto;
 }
 
-.ph {
-    padding-bottom: 1em;
+.figure_historia1 {
+    text-align: center;
+}
+
+.img_historia1 {
+    border: 5px solid white;
+    border-radius: 10%;
+    margin: 2em auto;
+}
+
+.div_historia {
+    text-align: center;
+}
+
+.figure_historia2, .figure_historia3 {
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: inline-block;
+}
+
+.img_historia2 {
+    border: 5px solid white;
+    border-radius: 10%;
+    
 }
