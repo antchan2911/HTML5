@@ -12,6 +12,8 @@ header {
     padding-bottom: 2em;
     padding-right: 1em;
     max-width: 80em;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 a {
@@ -35,7 +37,7 @@ main{
     max-width: 80em;
 }
 
-.main_div {
+.main_section {
     padding-top: 3em;
     padding-left: 1em;
 }
@@ -48,9 +50,4 @@ footer {
 
 .p_footer {
     padding: 2em;
-}
-
-.header_box {
-    margin-top: 1em;
-    margin-bottom: 2em;
 }
