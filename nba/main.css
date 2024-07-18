@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.hd1, .hd2 {
+    border-bottom: 5px solid white;
+    margin-bottom: 2em;
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(255, 41, 41);
+}
+
+.h2jogadores {
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: rgb(37, 37, 173);
+}
+
+footer {
+    font-size: large;
+    background-color: rgb(255, 41, 41);
+    padding-top: 5em;
+    padding-left: 1em;
+    border-top: 5px solid white;
+}
+
+.ftr_index {
+    margin-top: 25em;
+}
+
+.ol1 {
+    text-align: center;
+}
+
+.li1 {
+    display: inline-block;
+    list-style-type: none;
+    background-color: red;
+    font-size: large;
+    margin: 1em 0.5em;
+}
+.li2 {
+    padding: 5px;
+}
+
+.h41 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10%;
+    background-color: red;
+}
+
+.menu:hover {
+    background-color: white;
+    color: black;
+}
+
+.figure_jogadores {
+    max-width: 80em;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.img_jogadores {
+    border: 3px solid white;
+    border-radius: 10%
+}
+
+.p_jogadores {
+    max-width: 50em;
+    margin: 0 auto;
+    text-align: justify;
+    font-size:large;
+}
+
+.h3campeoes {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.li3 {
+    padding: 5px;
+    margin-bottom: 2em;
+}
+
+.h42 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.p_campeoes {
+    max-width: 50em;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: large;
+}
+
+.figure_campeoes {
+    text-align: center;
+}
+
+.figure_campeoes1, .figure_campeoes2 {
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: inline-block;
+}
+
+.img_campeoes {
+    border: 5px solid white;
+    border-radius: 10%;
+}
+
+.table_campeoes {
+    text-align: center;
+    color: white;
+    max-width: 30em;
+    margin: 2em auto;
+    border-collapse: collapse;
+    border: 5px solid white;
+}
+
+.table_campeoes tr:nth-child(odd) {
+    background-color: rgb(13, 26, 107);
+}
+
+.table_campeoes tr:nth-child(1) {
+    background-color: rgb(37, 37, 173);
+}
+
+.table_campeoes tr:nth-child(2) {
+    background-color: green;
+}
+
+.table_campeoes tr:nth-child(3) {
+    background-color: purple;
+}
+.table_campeoes tr:nth-child(4) {
+    background-color: rgb(180, 199, 12);
+}
+
+caption {
+    padding-bottom: 0.7em;
+    font-size: large;
+}
+
+.ph {
+    padding-bottom: 1em;
+    color: white;
+    font-size: large;
+    text-align: justify;
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.figure_historia1 {
+    text-align: center;
+}
+
+.img_historia1 {
+    border: 5px solid white;
+    border-radius: 10%;
+    margin: 2em auto;
+}
+
+.div_historia {
+    text-align: center;
+}
+
+.figure_historia2, .figure_historia3 {
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: inline-block;
+}
+
+.img_historia2 {
+    border: 5px solid white;
+    border-radius: 10%;
+    
+}
