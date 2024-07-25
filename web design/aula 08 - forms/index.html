@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+<body>
+    <form action="dadosenviados.html">
+        <!-- formulários são usados para enviar dados, os quais podem ser inseridos no banco de dados, enviados por email, etc -->
+        <!-- o método action direciona os dados do form para o arquivo que vai receber e tratar os dados -->
+        <label for="login">Login</label> <br>
+        <!-- label é importante para acessibilidade, mesmo que não influencie na usabilidade -->
+        <input type="text" id="login" placeholder="Login" maxlength="5"> <br>
+        <!-- o input recebe dados e precisa de um id pra ser identificado no backend -->
+        <!-- o id não pode ter espaço, nem começar com numero, nem usar caracteres especiais -->
+        <!-- placeholder coloca o nome dentro do espaço -->
+        <!-- maxlength define o maximo de caracteres do espaço -->
+        <label for="senha">Senha</label> <br>
+        <input type="password" id="senha" placeholder="Senha"> <br>
+        <input type="submit" value="Enviar">
+        <!-- value coloca um nome no botão -->
+    </form>
+    
+</body>
+</html>

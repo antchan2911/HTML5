@@ -1,0 +1,21 @@
+label {
+    display: inline-block;
+    width: 7em;
+    margin-bottom: 1em;
+}
+
+label[for="nome"] {
+    background-color: greenyellow;
+}
+
+input[type="submit"]:hover {
+    background-color: greenyellow;
+}
+
+form {
+    width: 50em;
+    margin: 0 auto;
+    box-shadow: 0 0 0 0.5em black;
+    border-radius: 1em;
+    padding: 7em;
+}
