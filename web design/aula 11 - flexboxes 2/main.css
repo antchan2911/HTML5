@@ -1,0 +1,4 @@
+header nav a { /* tag "a" que tá dentro do nav do header */
+    text-decoration: none;
+    color: red;
+}
