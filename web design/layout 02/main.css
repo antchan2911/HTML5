@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+
+}
+.lateral {
+    background-color: rgb(5, 126, 116);
+    height: 100em;
+    width: 15%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+}
+
+ol {
+    text-align: justify;
+    list-style-type: none;
+    color: white;
+    max-width: 10em;
+    margin: 0 auto;
+}
+
+li {
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.corpo {
+    width: 80%;
+    height: 100em;
+}
+
+form {
+    padding-top: 2.7em; 
+    margin-left: 2em;
+}
+
+form, .dani {
+    display: inline-block;
+}
+
+.dani {
+
+}
