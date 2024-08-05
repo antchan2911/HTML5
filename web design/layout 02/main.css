@@ -5,14 +5,13 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
+    display: flex; /* todos os atributos do flex devem ser atribuidos no mesmo seletor do flex, o qual deve ser o "container pai" dos que vão receber o flex */
+    height: 100vh;
 
 }
-.lateral {
+header {
     background-color: rgb(5, 126, 116);
-    height: 100em;
-    width: 15%;
+    width: 15em;
 }
 
 h1 {
@@ -32,25 +31,52 @@ ol {
     margin: 0 auto;
 }
 
-li {
+.lista_header {
     padding-bottom: 1em;
     font-size: 1.1em;
 }
 
-.corpo {
-    width: 80%;
-    height: 100em;
-}
-
-form {
+.hm {
+    display: flex;
     padding-top: 2.7em; 
     margin-left: 2em;
+    justify-content: space-between;
 }
 
-form, .dani {
-    display: inline-block;
+section {
+    padding: 2em;
 }
 
-.dani {
+.card {
+    border: 1px solid black;
+    width: 12em;
+    height: 13em;
+}
 
+p {
+    height: 65%;
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav {
+  height: 35%; 
+  padding: 1.5em; 
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 0.7em;
+}
+
+.cardsss {
+    padding-top: 2em;
+    display: flex;
+    flex-wrap: wrap; /* quebra o elemento em outra linha com a variação de resolução(responsividade) */
+    gap: 2em; /* espaça os elementos */
 }
