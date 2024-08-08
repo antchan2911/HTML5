@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    width: 70em;
+    border: 1px solid black;
+    display: grid; /* o display grid deve ser aplicado ao container pai */
+    grid-template-areas: 
+    /* o template-areas realiza uma diagramação dinamica, ou seja, onde eu colocar a variavel ela vai ficar, por linha */
+    "a b d"
+    /* cada aspas é uma linha */
+    "c b d";
+    gap: 2em;
+    /* o gap pode ser utilizado no grid e no flex */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* define a largura das colunas, opcional */
+    /* fr = fracionar, fraciona o tamanho das colunas baseado na largura total do container, se não definir, a largura será dos conteudos*/
+    grid-template-rows: 10em 20em;
+    /* define a altura da linha, opcional */
+}
+
+main > div {
+    background-color: blue;
+}
+
+div.area-a {
+    grid-area: a;
+    /* para utilizar o grid é necessario criar variaveis e utiliza-se o atributo area para isso */
+}
+
+div.area-b {
+    grid-area: b;
+}
+
+div.area-c {
+    grid-area: c;
+}
+
+div.area-d {
+    grid-area: d;
+}
