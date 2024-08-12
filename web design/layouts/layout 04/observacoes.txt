@@ -1,0 +1,5 @@
+linear-gradient(to left,#7292A6, #224459 )
+background-color:#224459;
+background-color: #2980B9;
+background-color: rgba(0, 0, 0, 0.5); -> fundo transparente atrás do nome
+font-family: 'Roboto Mono', monospace;

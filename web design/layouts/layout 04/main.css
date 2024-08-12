@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    color: white;
+    height: 6em;
+    padding: 2em;
+    background-image: linear-gradient(to left,#7292A6, #224459);
+    
+}
+
+header h1 {
+    font-size: 2.5em;
+    padding-top: 0.3em;
+}
+
+footer {
+    height: 13em;
+    background-color:#224459;
+}
+
+footer p {
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 5.5em;
+
+}
+
+b {
+    color: rgb(19, 19, 138);
+}
+
+nav {
+    background-color: #C6D1D9;
+}
+
+nav ol {
+    padding: 2em;
+    list-style-type: none;
+}
+
+nav li {
+    padding-bottom: 1em;
+}
+
+li a {
+    color: #4A798D;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+p a {
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.area-a {
+    grid-area: a;
+}
+
+.area-b {
+    grid-area: b;
+    background-color: #ECECEC;
+}
+
+.area-c {
+    grid-area: c;
+    background-color: #ECECEC;
+}
+
+.area-c li {
+    padding-bottom: 1em;
+}
+
+.area-d {
+    grid-area: d;
+    background-color: #ECECEC;
+}
+
+.area-d h2 {
+    padding-bottom: 1em;
+}
+
+.area-e {
+    grid-area: e;
+    background-color: #ECECEC;
+}
+
+.area-e h2 {
+    padding-bottom: 1em;
+}
+
+.area-f {
+    grid-area: f;
+    background-color: #ECECEC;
+}
+
+.area-f h2 {
+    padding-bottom: 1em;
+}
+
+.area-f p, .area-f li {
+    padding-bottom: 0.5em;
+}
+
+.area-g {
+    grid-area: g;
+    background-color: #ECECEC;
+}
+
+.area-h {
+    grid-area: h;
+    background-color: #ECECEC;
+}
+
+.area-i {
+    grid-area: i;
+    background-color: #ECECEC;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    border: 3px solid white;
+}
+
+#nome, #email, #celular, #select {
+    margin-bottom: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 3em;
+    border: 2px solid black;
+}
+
+#enviar {
+    margin-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    color: white;
+    background-color: black;
+}
