@@ -78,6 +78,7 @@ li a {
 p a {
     color: black;
     border: 1px solid black;
+    padding: 5px;
     text-decoration: none;
 }
 
@@ -257,7 +258,7 @@ td {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 0.5em;
-    padding-right: 3em;
+    padding-right: 6em;
     border: 2px solid black;
 }
 
