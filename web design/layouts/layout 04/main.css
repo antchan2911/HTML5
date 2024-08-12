@@ -55,8 +55,9 @@ li a {
 
 
 p a {
-    text-decoration: none;
+    color: black;
     border: 1px solid black;
+    text-decoration: none;
 }
 
 .area-a {
@@ -110,17 +111,42 @@ p a {
 
 .area-g {
     grid-area: g;
-    background-color: #ECECEC;
+    background-image: url(palestrantes/ellen.jpg);
+}
+
+.area-g p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .area-h {
     grid-area: h;
-    background-color: #ECECEC;
+    background-image: url(palestrantes/amanda.jpg);
+}
+
+.area-h p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .area-i {
     grid-area: i;
-    background-color: #ECECEC;
+    background-image: url(palestrantes/henrique.jpg);
+}
+
+.area-i p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.area-j {
+    grid-area: j;
+    background-image: url(palestrantes/georgia.jpg);
+}
+
+.area-j p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 table {
