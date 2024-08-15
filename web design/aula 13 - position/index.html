@@ -8,13 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="box">
+    <div class="box" id="modal">
+        <button id="fecharmodal">(x) fechar</button>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus expedita autem debitis dolor ducimus saepe alias eos reprehenderit, minus, tenetur quod eveniet, quas necessitatibus labore? Doloribus deserunt magnam quae rem?</p>
     </div>
     <div class="box1">teste</div>
     <div class="box2">teste</div>
         <header>WTADS - 09 a 11 de Setembro</header>
         <main>
+            <button id="showmodal">ABRIR MODAL</button>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta rerum inventore recusandae temporibus obcaecati tempore quas sapiente nisi, ipsa veniam qui consequuntur amet optio voluptatibus molestias eveniet nesciunt velit est.</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta rerum inventore recusandae temporibus obcaecati tempore quas sapiente nisi, ipsa veniam qui consequuntur amet optio voluptatibus molestias eveniet nesciunt velit est.</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta rerum inventore recusandae temporibus obcaecati tempore quas sapiente nisi, ipsa veniam qui consequuntur amet optio voluptatibus molestias eveniet nesciunt velit est.</p>
@@ -48,5 +50,17 @@
         <footer>
             <p>Desenvolvido por IFRN.</p>
         </footer>
+
+        <script>
+            document.getElementById('fecharmodal').addEventListener('click', modal);
+            document.getElementById('showmodal').addEventListener('click', modal2);
+            function modal() {
+                document.getElementById('modal').style.visibility = 'hidden'
+            }
+            function modal2() {
+                document.getElementById('modal').style.visibility = 'visible'
+            }
+        </script>
+        
 </body>
 </html>

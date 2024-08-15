@@ -9,6 +9,19 @@ header, footer {
     text-align: center;
 }
 
+footer {
+    position: fixed;
+    /* mantem o container fixo na tela, independente da barra de rolagem */
+    bottom: 0;
+    width: 100%;
+    /* quando aplica position perde a largura, por isso tem que definir */
+    background-color: rgba(199, 255, 252, 0.8);
+}
+
+main {
+    margin-bottom: 7em;
+}
+
 main p {
     margin: 2em;
 }
