@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    padding: 2em;
+    background-color: lightblue;
+    text-align: center;
+}
+
+main p {
+    margin: 2em;
+}
+
+.box {
+    width: 20em;
+    height: 20em;
+    padding: 2em;
+    box-sizing: border-box;
+    /* ao utilizar o padding, não altera nem a altura nem a largura da caixa */
+    background-color: lightyellow;
+    position: absolute;
+    /* position ativa a movimentação dos containers, podendo colocar containers uns sob os outros */
+    bottom: 200px;
+    left: 200px;
+    /* tem que escolher bottom ou top e left ou right, sendo as coordenadas horizontais ou verticais(X e Y), para coordenar o movimento do container */
+    z-index: 3;
+    /* recebe um numero inteiro que equivale à ordem dos containers */
+}
+
+.box1 {
+    width: 20em;
+    height: 20em;
+    background-color: lightsalmon;
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+    z-index: 2;
+}
+
+.box2 {
+    width: 20em;
+    height: 20em;
+    background-color: lightpink;
+    position: absolute;
+    bottom: 400px;
+    left: 400px;
+    z-index: 1;
+
+}

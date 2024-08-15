@@ -171,6 +171,7 @@ p a {
     grid-area: g;
     background-image: url(palestrantes/ellen.jpg);
     background-position: -60px -30px;
+    filter: gray 80%;
 }
 
 .area-g div {
