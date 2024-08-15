@@ -171,7 +171,7 @@ p a {
     grid-area: g;
     background-image: url(palestrantes/ellen.jpg);
     background-position: -60px -30px;
-    filter: gray 80%;
+    filter: grayscale(100%);
 }
 
 .area-g div {
@@ -190,6 +190,7 @@ p a {
 .area-h {
     grid-area: h;
     background-image: url(palestrantes/amanda.jpg);
+    filter: grayscale(100%);
 }
 
 .area-h div {
@@ -208,6 +209,7 @@ p a {
 .area-i {
     grid-area: i;
     background-image: url(palestrantes/henrique.jpg);
+    filter: grayscale(100%);
 }
 
 .area-i div {
@@ -226,6 +228,7 @@ p a {
 .area-j {
     grid-area: j;
     background-image: url(palestrantes/georgia.jpg);
+    filter: grayscale(100%);
 }
 
 .area-j div {
