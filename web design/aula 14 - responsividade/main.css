@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: o;
+}
+
+body {
+    color: whitesmoke;
+    background-color: darkcyan;
+}
+
+picture {
+    float: left;
+    /* deixa a imagem do lado do texto */
+}
+
+@media screen and (max-width:992px) {
+/* @media screen pega o tipo de midia TELA */
+/* condição para mudar o background, equivalente a um if(nesse caso, quando a resolução for mobile) */
+    body {
+        background-color: violet;
+    }
+
+    picture {
+        float: none;
+    }
+}
+@media screen and (max-width: 520px) {
+/* @media screen pega o tipo de midia TELA */
+/* condição para mudar o background, equivalente a um if(nesse caso, quando a resolução for mobile) */
+    body {
+        background-color: turquoise;
+    }
+
+    picture {
+        float: none;
+    }
+}
