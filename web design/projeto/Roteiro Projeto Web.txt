@@ -1,0 +1,21 @@
+1 - Definir tema
+2 - Definir quantidade e tipo de telas
+3 - Prototipagem Figma
+4 - Desenvolvimento(HTML/CSS/JS)
+
+Requisitos:
+
+Mínimo 5 páginas
+
+Formulário
+
+Aplicação de JS
+
+
+
+Tema:
+
+Criar um site para divulgar um curso online fictício
+
+
+
