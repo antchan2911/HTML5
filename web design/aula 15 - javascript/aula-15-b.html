@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>JS</title>
+</head>
+<body>
+    <div>
+        <label>A: <input type="number" id="a"> </label> <br>
+        <label>B: <input type="number" id="b"> </label> <br>
+        <button id="calcular">CALCULAR</button>
+        <button id="verificar">VERIFICAR</button>
+        <p id="resultado"></p>
+    </div>
+
+
+    <script>
+        document.getElementById("verificar").addEventListener('click', verificar);
+        function verificar() {
+            var a = parseFloat(document.getElementById('a').value);
+            var b = parseFloat(document.getElementById('b').value);
+            if (a == b) {
+                document.getElementById('a').style.backgroundColor = "green";
+                document.getElementById('b').style.backgroundColor = "green";
+            } else {
+                document.getElementById('a').style.backgroundColor = "red";
+                document.getElementById('b').style.backgroundColor = "red";
+            }
+        }
+        document.getElementById('calcular').addEventListener('click', calcular);
+        function calcular() {
+            var a = parseFloat(document.getElementById('a').value);
+            var b = parseFloat(document.getElementById('b').value);
+            document.getElementById('resultado').innerHTML = "Resultado: " + (a*b);
+            // value = pega o valor digitado
+            // parseFloat = converte para float
+            // innerHTML = escreve na tela inserindo na tag resultado
+        }
+
+    </script>
+</body>
+</html>
