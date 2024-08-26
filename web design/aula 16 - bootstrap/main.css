@@ -1,3 +1,24 @@
 .accordion {
     width: 50%;
+    margin: 0 auto;
 }
+
+.accordion-button:not(.collapse) {
+    /* o not funciona de modo que a estilização só vai ocorrer na classe que não for collapse */
+    background-color: aqua;
+}
+
+.btn.btn-primary {
+    /* mudar a cor do botão do modal */
+    background-color: red;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    /* mudar a cor do botão quando selecionado */
+    background-color: black;
+}
+
+/* accordion = item que abre e fecha */
+/* navbar = barra de menu */
+/* modal = caixa flutuante */
