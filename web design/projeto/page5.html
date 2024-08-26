@@ -10,45 +10,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>index</title>
+    <title>PAGE 4</title>
 </head>
 <body>
     <header>
-        <div id="texto_header_index">
-            <h1>Saúde e Bem-Estar</h1>
-            <h2>Estratégias para uma Vida Equilibrada</h2>
-        </div>
+        <h1 class="texto_header">Receba nossos materiais gratuitamente!</h1>
         <figure class="logo_header">
             <a href="index.html"><img src = "imagens/index/folha.png" width = 90 height = 90></a>
         </figure>
     </header>
     <main>
-        <div id="div_texto_main_index">
-            <div id = "texto_main_index">
-                <p>
-                    Você está pronto para dar o próximo passo em direção a uma vida mais saudável e equilibrada?<br> 
-                    Nosso curso online foi criado especialmente para você que busca aprimorar sua qualidade de vida e alcançar um estado de bem-estar duradouro.
-                </p>
-            </div>
+        <div id="container_page5">
+            <p>Para ter acesso a tudo que nosso curso tem a lhe oferecer de forma totalmente gratuita, basta preencher o cadastro a seguir:</p>
         </div>
-        <ol>
-            <li>
-                <a href="page2.html"><div id="cerebro"></div></a>
-                <p>O que você vai aprender</p>
-            </li>
-            <li>
-                <a href="page3.html"><div id="questao"></div></a>
-                <p>Por que escolher este curso?</p>
-            </li>
-            <li>
-                <a href="page4.html"><div id="alvo"></div></a>
-                <p>Quem deve fazer este curso?</p>
-            </li>
-            <li>
-                <a href="page5.html"><div id="livros"></div></a>
-                <p>Receba o conteúdo</p>
-            </li>
-        </ol>
+        <section id="container_formulario">
+            <h2><b>Preencha os dados a seguir para receber o material:</b></h2>
+            <div>
+                <label>Nome completo:</label><br>
+                <input type="text" placeholder="Digite seu nome" id="nome"><br>
+                <label>E-mail principal:</label><br>
+                <input type="email" placeholder="Digite seu e-mail" id="email"><br>
+                <label>Número de celular:</label><br>
+                <input type="text" placeholder="Digite seu número" id="celular"><br>
+            </div>
+            <button id="enviar_formulario"><p>RECEBER MATERIAL</p></button>
+        </section>
     </main>
     <footer>
         <div>
@@ -61,5 +47,6 @@
             Contato<br>sbegroup@contato.com.br<br>(XX) 0000-0000
         </p>
     </footer>
+    <script src = "page5.js"></script>
 </body>
 </html>
