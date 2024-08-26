@@ -19,6 +19,10 @@
     background-color: black;
 }
 
+.carousel-inner {
+    margin-top: 2em;
+}
+
 /* accordion = item que abre e fecha */
 /* navbar = barra de menu */
 /* modal = caixa flutuante */
