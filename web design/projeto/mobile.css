@@ -1,0 +1,57 @@
+#main_div {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#sessao1, #sessao2, #sessao3, #sessao4, #sessao5, #sessao6 {
+    width: 838px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 43px;
+    background-color: rgba(56, 170, 88, 1);
+    display: flex;
+}
+
+#sessao1 {
+    height: 256px;
+    gap: 3em;
+}
+
+.texto_section h2 {
+    margin: 2em 1em 1em 2em;
+}
+
+.texto_section p {
+    margin: 1em 1em 1em 3em;
+    max-width: 360px;
+    text-align: justify;
+}
+
+#sessao2 {
+    margin-top: 4em;
+    height: 291px;
+    gap: 5em;
+}
+
+#sessao3 {
+    margin-top: 4em;
+    height: 275px;
+    gap: 9em;
+}
+
+#sessao4 {
+    margin-top: 4em;
+    height: 275px;
+    gap: 9em;
+}
+
+#sessao5 {
+    margin-top: 4em;
+    height: 275px;
+    gap: 9em;
+}
+
+#sessao6 {
+    margin-top: 4em;
+    height: 280px;
+    gap: 8em;
+}
