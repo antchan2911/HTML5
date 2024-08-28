@@ -62,15 +62,11 @@ main {
     background-color: rgba(37, 85, 36, 1);
 }
 
-#div_texto_main_index {
-    max-width: 100vh;
-    margin: 0 auto;
-    padding-top: 4em;
-}
-
 #texto_main_index {
     width: 850px;
     height: 186px;
+    max-width: 50%;
+    margin: 0 auto;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 43px;
     background-color: rgba(56, 170, 88, 1);
@@ -90,7 +86,6 @@ ol {
     justify-content: space-around;
     gap: 4em;
     padding-top: 6em;
-    padding-bottom: 4em;
     list-style-type: none;
     max-width: 120vh;
     margin: 0 auto;
@@ -138,12 +133,8 @@ li p {
 
 
 #main_div {
-    max-width: 100vh;
+    max-width: 50%;
     margin: 0 auto;
-}
-
-#div_sessao1 {
-    padding-top: 4em;
 }
 
 #sessao1, #sessao2, #sessao3, #sessao4, #sessao5, #sessao6 {
@@ -164,9 +155,9 @@ li p {
 }
 
 .texto_section p {
+    margin: 1em 1em 1em 3em;
     max-width: 360px;
     text-align: justify;
-    margin: 1em 1em 1em 3em;
 }
 
 #balanca {
@@ -221,10 +212,6 @@ li p {
 
 #lampada {
     margin-top: 4em;
-}
-
-#div_sessao6 {
-    padding-bottom: 6em;
 }
 
 
