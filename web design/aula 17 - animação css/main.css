@@ -32,10 +32,10 @@ a {
     text-decoration: none;
     animation-name: aumentatamanho;
     /* nome da animação */
-    animation-duration: 1s;
+    animation-duration: 3s;
     /* duração da animação */
-    animation-iteration-count: infinite;
-    /* cria um loop da animação */
+    animation-iteration-count: 5;
+    /* cria um loop da animação com número inteiro ou atributo "infinite" */
 }
 
 @keyframes aumentatamanho {
@@ -49,5 +49,12 @@ a {
         font-size: 1em;
         color: darkorchid;
         background-color: deepskyblue;
+    }10%{
+        color: red;
+    }20%{
+        color: purple;
+    }50%{
+        color: yellow;
     }
+    /* pode-se estilizar a animação por porcentagem de tempo de duração */
 }
