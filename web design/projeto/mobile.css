@@ -1,57 +1,208 @@
-#main_div {
-    max-width: 100%;
-    margin: 0 auto;
-}
+@media screen and (max-width:375px) {
 
-#sessao1, #sessao2, #sessao3, #sessao4, #sessao5, #sessao6 {
-    width: 838px;
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 43px;
-    background-color: rgba(56, 170, 88, 1);
-    display: flex;
-}
+    header {
+        height: 93px;
+    }
+    
+    #texto_header {
+        font-size: 14px;
+        margin-top: 2.5em;
+    }
 
-#sessao1 {
-    height: 256px;
-    gap: 3em;
-}
+    #texto_header_index {
+        margin-top: 1.6em;
+        margin-left: 1em;
+    }
 
-.texto_section h2 {
-    margin: 2em 1em 1em 2em;
-}
+    #texto_header_index h1 {
+        font-size: 14px;
+    }
+    
+    #texto_header_index h2 {
+        font-size: 12px;
+    }
+    
+    #logo_header {
+        width: 51px;
+        height: 50px;
+        margin-top : 1.5em;
+        margin-right: 1em;
+    }
 
-.texto_section p {
-    margin: 1em 1em 1em 3em;
-    max-width: 360px;
-    text-align: justify;
-}
+    footer {
+        height: 93px;
+    }
+    
+    footer div {
+        gap: 0.5em;
+    }
 
-#sessao2 {
-    margin-top: 4em;
-    height: 291px;
-    gap: 5em;
-}
+    #logo_footer {
+        width: 40px;
+        height: 40px;
+        margin-left: 1em;
+    }
+    
+    #nome_grupo {
+        font-size: 10px;
+        max-width: 70px;
+        margin-top: 3.5em;
+    }
+    
+    #contato {
+        font-size: 10px;
+        margin-top: 2.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 
-#sessao3 {
-    margin-top: 4em;
-    height: 275px;
-    gap: 9em;
-}
+    #texto_main_index {
+        width: 307px;
+        height: 205px;
+        max-width: 100%;
+    }
 
-#sessao4 {
-    margin-top: 4em;
-    height: 275px;
-    gap: 9em;
-}
+    #texto_main_index p {
+        font-size: 12px;
+        max-width: 200px;
+    }
 
-#sessao5 {
-    margin-top: 4em;
-    height: 275px;
-    gap: 9em;
-}
+    ol {
+        max-width: 50%;
+    }
 
-#sessao6 {
-    margin-top: 4em;
-    height: 280px;
-    gap: 8em;
+    ol {
+        flex-wrap: none;
+        gap: 1.5em;
+        padding-top: 6em;
+        max-width: 120vh;
+        margin: 0 auto;
+    }
+    
+    li p {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 0.5em;
+        max-width: 140px;
+    }
+    
+    #cerebro {
+        width: 95px;
+        height: 95px;
+        margin-left: 1em;
+    }
+    
+    #questao {
+        width: 95px;
+        height: 95px;
+        margin-left: 2em;
+    } 
+    
+    #alvo {
+        width: 95px;
+        height: 95px;
+        margin-left: 1.5em;
+    }
+    
+    #livros {
+        width: 95px;
+        height: 95px;
+        margin-left: 1em;
+    }
+    
+
+
+    /* PAGINA 2 */
+
+
+    #balanca, #saude-mental, #plano, #ioga, #sono, #lampada {
+        display: none;
+    }
+
+    #sessao1, #sessao2, #sessao3, #sessao4, #sessao5, #sessao6 {
+        width: 307px;
+    }
+
+    #main_div {
+        max-width: 83%;
+        margin: 0 auto;
+    }
+    
+    #sessao1 {
+        height: 160px;
+    }
+    
+    .texto_section h2 {
+        font-size: 13px;
+        margin-top: 2em;
+        margin-right: 2em;
+        text-align: center;
+    }
+    
+    .texto_section p {
+        font-size: 11px;
+        margin-top: 1em;
+        margin-right: 2em;
+    }
+    
+    #sessao2 {
+        margin-top: 4em;
+        height: 177px;
+    }
+    
+    #sessao3 {
+        margin-top: 4em;
+        height: 169px;
+    }
+    
+    #sessao4 {
+        margin-top: 4em;
+        height: 175px;
+    }
+    
+    #sessao5 {
+        margin-top: 4em;
+        height: 179px;
+    }
+    
+    #sessao6 {
+        margin-top: 4em;
+        height: 179px;
+    }
+
+
+    #container_page3 {
+        width: 280px;
+        height: 680px;
+        margin: 0 auto;
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 43px;
+        background-color: rgba(56, 170, 88, 1);
+    }
+    
+    #container_page3 section {
+        max-width: 180px;
+        padding-top: 2em;
+        margin: 0 auto;
+    }
+    
+    #container_page3 section p {
+        font-size: 11px;
+        text-align: justify;
+        margin-bottom: 2em;
+    }
+    
+    #container_page3 section h2 {
+        max-width: 280px;
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+
+
+
+
+
+
 }
