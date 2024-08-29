@@ -280,11 +280,12 @@ section h2 {
     font-size: 22px;
     text-align: justify;
     max-width: 650px;
-    margin-left: 4em;
+    margin: 0 auto;
     padding-top: 2em;
 }
 
 #button_page4 button{
+    cursor: pointer;
     width: 383px;
     height: 98px;
     border: 2px solid white;
@@ -294,10 +295,12 @@ section h2 {
 
 #button_page4 button:hover {
     background-color: rgba(66, 255, 119, 1);
+    transition: background-color 1s;
 }
 
 #button_page4 button p {
     font-size: 22px;
+    text-decoration: underline;
 }
 
 #button_page4 {
@@ -381,7 +384,3 @@ label {
 #enviar_formulario p {
     font-size: 22px;
 }
-
-
-
-/* MOBILE */

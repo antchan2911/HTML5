@@ -171,13 +171,16 @@
     }
 
 
+
+
+    /* PAGINA 3 */
+
+
+
     #container_page3 {
         width: 280px;
         height: 680px;
         margin: 0 auto;
-        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-        border-radius: 43px;
-        background-color: rgba(56, 170, 88, 1);
     }
     
     #container_page3 section {
@@ -199,10 +202,94 @@
         margin-bottom: 1em;
     }
 
+    /* PAGINA 4 */
+
+
+    #container_page4 {
+        width: 280px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+
+    #container_page4 p {
+        font-size: 12px;
+        max-width: 190px;
+        margin: 0 auto;
+    }
+
+    #button_page4 button{
+        width: 200px;
+        height: 50px;
+    }
+
+    #button_page4 button p {
+        font-size: 12px;
+    }
+
+    #button_page4 {
+        max-width: 54%;
+        margin: 0 auto;
+    }
 
 
 
+    /* PAGINA 5 */
 
 
-
+    #container_page5 {
+        width: 307px;
+        height: 130px;
+        margin: 0 auto;
+        margin-bottom: 3em;
+    }
+    
+    #container_page5 p {
+        font-size: 13px;
+        max-width: 230px;
+        margin: 0 auto;
+        padding-top: 1.5em;
+    }
+    
+    #container_formulario {
+        width: 307px;
+        height: 570px;
+        margin: 0 auto;
+    }
+    
+    #container_formulario h2 {
+        max-width: 180px;
+        margin: 0 auto;
+        font-size: 13px;
+        text-align: center;
+        padding-top: 2em;
+    }
+    
+    #container_formulario div {
+        margin-top: 2em;
+        margin-left: 1.5em;
+    }
+    
+    input {
+        width: 248px;
+        height: 35px;
+        margin-bottom: 0;
+    }
+    
+    label {
+        font-size: 13px;
+        margin-left: 0.5em;
+        padding-top: 2em;
+    }
+    
+    #enviar_formulario {
+        width: 160px;
+        height: 40px;
+        margin-top: 3em;
+        margin-left: 5.5em;
+    }
+    
+    #enviar_formulario p {
+        font-size: 13px;
+    }
 }
