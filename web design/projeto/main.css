@@ -76,6 +76,7 @@ main {
     background-color: rgba(37, 85, 36, 1);
 }
 
+
 #texto_main_index {
     width: 850px;
     height: 186px;
@@ -84,6 +85,7 @@ main {
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 43px;
     background-color: rgba(56, 170, 88, 1);
+    padding-top: 2em;
 
 }
 
@@ -92,7 +94,7 @@ main {
     margin: 0 auto;
     padding-top: 1.8em;
     font-size: 19px;
-    text-align: justify;
+    text-align: left;
 }
 
 ol {
@@ -172,7 +174,7 @@ li p {
 .texto_section p {
     margin: 1em 1em 1em 3em;
     max-width: 360px;
-    text-align: justify;
+    text-align: left;
 }
 
 #balanca {
@@ -253,7 +255,7 @@ li p {
 
 #container_page3 section p {
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 1em;
 }
 
@@ -278,7 +280,7 @@ section h2 {
 
 #container_page4 p {
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
     max-width: 650px;
     margin: 0 auto;
     padding-top: 2em;
@@ -326,7 +328,7 @@ section h2 {
 
 #container_page5 p {
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
     max-width: 650px;
     margin: 0 auto;
     padding-top: 2em;
